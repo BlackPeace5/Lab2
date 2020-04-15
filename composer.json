@@ -1,0 +1,33 @@
+{
+    "name": "blackpeace/trpo",
+    "description": "libraries trpo-core",
+    "type": "package",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "BlackPeace5",
+            "email": "4522105@gmail.com"
+        }
+    ],
+    "repositories": [
+      {
+        "type": "package",
+        "package": {
+          "name": "rok9ru/trpo-core",
+          "version": "@dev",
+          "source": {
+              "type": "git",
+              "url": "https://github.com/rok9ru/trpo-core.git",
+              "reference": "master"
+          }
+        }
+      }
+    ],
+    "require": {
+      "rok9ru/trpo-core": "@dev"
+    },
+    "autoload": {
+      "psr-4": {"Gazetov\\": "."}
+    }
+}
