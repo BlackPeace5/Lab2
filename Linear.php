@@ -20,7 +20,7 @@ class Linear {
 
 			if($a != 0){
 				MyLog::log("This linear equation");
-				$this->x =($b * (-1))/$a;
+				$this->x = array(($b * (-1))/$a);
 				return $this->x;
 			}
 
